@@ -8,7 +8,7 @@ data = {
     "password": "superuser"
 }
 
-access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU0Njk5NzYxLCJpYXQiOjE2NTQ2OTk0NjEsImp0aSI6IjJlYWNlNzQ0NzYxOTQ4Nzk5ZGFlYzhkY2E1NzcyYTA4IiwidXNlcl9pZCI6MX0.0QzFxSN-nQZjYVYfM5tLM3kfI8xj2gVZ62G236XDfCs"
+access_token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU0NzAwMjIzLCJpYXQiOjE2NTQ2OTk5MjMsImp0aSI6Ijg2ZmIyYzkzOWI2YzRhNDg5YjQ5YzM4MDBkOTRkMDY2IiwidXNlcl9pZCI6MX0.yM6uzCMoIefUU3ERkctHLjio9ZBoh3V6P47GxkG-uNc"
 json_data = json.dumps(data)
 response = requests.get(
     url=URL,
